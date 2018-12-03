@@ -24,7 +24,6 @@ struct btree_node {
 btree btree_create(void);
 void btree_destroy(btree t);
 uint64_t btree_search(btree t, uint64_t key);
-void btree_insert(btree t, struct data_t elem);
 void btree_delete(btree t, uint64_t key);
 
 #endif
